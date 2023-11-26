@@ -1,0 +1,86 @@
+[2023-11-26T06:28:00.347+0000] {processor.py:157} INFO - Started process (PID=97) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:28:00.356+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:28:00.359+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:28:00.358+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:28:00.424+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:28:00.420+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/outcomes.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/outcomes.py", line 13, in <module>
+    from ExtractTransformLoad_Steps.TransformData import transform_data
+ModuleNotFoundError: No module named 'ExtractTransformLoad_Steps'
+[2023-11-26T06:28:00.426+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:28:00.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/outcomes.py took 0.579 seconds
+[2023-11-26T06:28:31.850+0000] {processor.py:157} INFO - Started process (PID=105) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:28:31.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:28:31.859+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:28:31.855+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:28:43.374+0000] {processor.py:157} INFO - Started process (PID=114) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:28:43.379+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:28:43.410+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:28:43.410+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:29:21.148+0000] {processor.py:157} INFO - Started process (PID=122) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:29:21.318+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:29:21.343+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:29:21.339+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:29:54.669+0000] {processor.py:157} INFO - Started process (PID=131) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:29:54.680+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:29:54.737+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:29:54.735+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:30:26.418+0000] {processor.py:157} INFO - Started process (PID=140) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:30:26.429+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:30:26.443+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:30:26.442+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:30:59.925+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:30:59.994+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:31:00.089+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:31:00.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:31:42.434+0000] {processor.py:157} INFO - Started process (PID=158) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:31:42.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:31:42.473+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:31:42.470+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:32:21.548+0000] {processor.py:157} INFO - Started process (PID=167) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:32:21.561+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:32:21.711+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:32:21.660+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:33:07.807+0000] {processor.py:157} INFO - Started process (PID=176) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:33:07.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:33:07.849+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:33:07.847+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:33:43.655+0000] {processor.py:157} INFO - Started process (PID=184) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:33:43.683+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:33:43.776+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:33:43.761+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:34:18.920+0000] {processor.py:157} INFO - Started process (PID=194) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:34:18.926+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:34:18.982+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:34:18.958+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:34:55.097+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:34:55.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:34:55.153+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:34:55.149+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:35:32.304+0000] {processor.py:157} INFO - Started process (PID=212) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:35:32.366+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:35:32.414+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:35:32.407+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:36:16.776+0000] {processor.py:157} INFO - Started process (PID=221) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:36:16.784+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:36:16.830+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:36:16.824+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:36:56.242+0000] {processor.py:157} INFO - Started process (PID=236) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:36:56.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:36:56.275+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:36:56.265+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:37:42.040+0000] {processor.py:157} INFO - Started process (PID=246) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:37:42.059+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:37:42.143+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:37:42.135+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:38:29.062+0000] {processor.py:157} INFO - Started process (PID=256) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:38:29.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:38:29.099+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:38:29.087+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:39:10.786+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:39:10.819+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:39:10.939+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:39:10.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:39:44.839+0000] {processor.py:157} INFO - Started process (PID=280) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:39:44.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:39:45.349+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:39:45.338+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:40:22.629+0000] {processor.py:157} INFO - Started process (PID=289) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:40:22.642+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:40:22.688+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:40:22.664+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:41:02.009+0000] {processor.py:157} INFO - Started process (PID=298) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:41:02.022+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:41:02.168+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:41:02.143+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:41:08.692+0000] {processor.py:157} INFO - Started process (PID=301) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:41:08.697+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:41:08.712+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:41:08.702+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:41:49.606+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:41:49.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:41:49.642+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:41:49.636+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
+[2023-11-26T06:42:23.491+0000] {processor.py:157} INFO - Started process (PID=319) to work on /opt/airflow/dags/outcomes.py
+[2023-11-26T06:42:23.494+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/outcomes.py for tasks to queue
+[2023-11-26T06:42:23.506+0000] {logging_mixin.py:154} INFO - [2023-11-26T06:42:23.504+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/outcomes.py
